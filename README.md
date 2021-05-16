@@ -4,7 +4,7 @@
  ![Диаграмма](docs/diagrams/interfaces.png)
  
 ### ***Список интерфейсов***
-- [ISchedule](docs/) 
+- [IOrder](docs/) 
 
 
 - [IEmployee](docs/) 
@@ -13,13 +13,13 @@
 - [IClient](docs/)
 
 
+- [IBranchOffice](docs/)
+
+
+- [IworkShift](docs/)
+
+
 - [IService](docs/)
-
-
-- [IRequest](docs/)
-
-
-- [ITypeService](docs/)
  
 ## Диаграммы
 
