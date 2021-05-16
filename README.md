@@ -4,22 +4,22 @@
  ![Диаграмма](docs/diagrams/interfaces.png)
  
 ### ***Список интерфейсов***
-- [IOrder](docs/) 
+- [IOrder](docs/IOrder.md) 
 
 
-- [IEmployee](docs/) 
+- [IEmployee](docs/IEmployee.md) 
 
 
 - [IClient](docs/IClient.md)
 
 
-- [IBranchOffice](docs/)
+- [IBranchOffice](docs/IBranchOffice.md)
 
 
-- [IworkShift](docs/)
+- [IworkShift](docs/IworkShift.md)
 
 
-- [IService](docs/)
+- [IService](docs/IService.md)
  
 ## Диаграммы
 
