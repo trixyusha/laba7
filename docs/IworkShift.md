@@ -8,7 +8,7 @@
 
 - +del(ID : Integer) : Boolean — функция, которая удаляет смену из БД;
 
-- +edit(workShift : [workShift](workShift.md)) : Boolean — функция, редактирующая данные о сотруднике. Параметр «[workShift](workShift.md)» — смена, данные котороq необходимо отредактировать в БД;
+- +edit(workShift : [workShift](workShift.md)) : Boolean — функция, редактирующая данные о смене. Параметр «[workShift](workShift.md)» — смена, данные которой необходимо отредактировать в БД;
 
 - +GetSchedule(sorting : String, ASKorDESK : Boolean, filterA : [workShift](workShift.md), filterB : [workShift](workShift.md), count : Integer, page : Integer) : List<[workShift](workShift.md)> - функция с входными параметрами «sorting» - сортировка, 
 «ASKorDESK» - по возрастанию/по убыванию, «filterA» - фильтр, «filterB» - фильтр (необходим для интервала количественных атрибутов), «count» - количество, «page» - страница. Функция возвращает список смен (график работы).
