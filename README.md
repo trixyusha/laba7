@@ -33,7 +33,7 @@
 
 + [Диаграммы последовательностей](docs/Sequence.md)
 
-+ [Диаграмма состояния](docs/StateChart.md)
++ [Диаграмма состояний](docs/StateChart.md)
 
 + [Диаграмма размещения](docs/Deployment.md)
 
