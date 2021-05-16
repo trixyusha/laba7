@@ -1,38 +1,38 @@
 # Химчистка
 
 ## Интерфейсы
- ![Диаграмма](docs/diagrams/int.png)
+ ![Диаграмма](docs/diagrams/)
  
 ### ***Список интерфейсов***
-- [ISchedule](docs/IworkSchedule.md) 
+- [ISchedule](docs/) 
 
 
-- [IEmployee](docs/IEmployee.md) 
+- [IEmployee](docs/) 
 
 
-- [IClient](docs/IClient.md)
+- [IClient](docs/)
 
 
-- [IService](docs/IService.md)
+- [IService](docs/)
 
 
-- [IRequest](docs/IOrder.md)
+- [IRequest](docs/)
 
 
-- [ITypeService](docs/ITypeService.md)
+- [ITypeService](docs/)
  
 ## Диаграммы
 
-+ [Диаграмма размещения](docs/Deployment.md)
++ [Диаграмма размещения](docs/)
 
-+ [Диаграммы последовательности](docs/Sequence.md)
++ [Диаграммы последовательности](docs/)
 
 + [Диаграммы действий](docs/Activity.md)
 
-+ [Диаграмма состояния](docs/State.md)
++ [Диаграмма состояния](docs/)
 
-+ [Диаграмма классов](docs/Class.md)
++ [Диаграмма классов](docs/)
 
-+ [Схема БД](docs/BD.md)
++ [Схема БД](docs/)
 
-+ [Схема прецедентов](docs/Precedent.md)
++ [Схема прецедентов](docs/)
