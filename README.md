@@ -1,7 +1,7 @@
 # Химчистка
 
 ## Интерфейсы
- ![Диаграмма](docs/diagrams/)
+ ![Диаграмма](docs/diagrams/interfaces.png)
  
 ### ***Список интерфейсов***
 - [ISchedule](docs/) 
