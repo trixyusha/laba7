@@ -4,7 +4,7 @@
 
 ### Реализация интерфейса
 
-- +add(BranchOffice : [BranchOffice](BranchOffice.md)) : Integer — функция, добавляющая филиал в базу данных. Параметр «[BranchOffice](BranchOffice.md)» — филиал, котороый необходимо добавить в БД;
+- +add(BranchOffice : [BranchOffice](BranchOffice.md)) : Integer — функция, добавляющая филиал в базу данных. Параметр «[BranchOffice](BranchOffice.md)» — филиал, который необходимо добавить в БД;
 
 - +del(ID : Integer) : Boolean — функция, которая удаляет филиал из БД;
 
