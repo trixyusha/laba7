@@ -39,7 +39,7 @@
 Класс, связанный агрегацией «один-ко-многим» с классом Employee. Содержит открытую функцию «GetEmloyees».
 + +GetEmployees(sorting : String, ASKorDESK : Boolean, filtering : Emloyee, count : Integer, page : Integer) : List<Employee> - функция с входными параметрами «sorting» - сортировка, «ASKorDESK» - по возрастанию/по убыванию, «filtering» - фильтрация, «count» - количество, «page» - страница. Функция возвращает список сотрудников.
 
-#### *Client*
+#### *[Client](Client.md)*
 
 Класс, являющийся наследником класса Person, связан с классом Order композицией «один-ко-многим». Содержит атрибут Sale (скидка).
 + +add() – функция добавления клиента в БД, возвращает ID клиента.
@@ -53,7 +53,7 @@
 Класс, связанный агрегацией «один-ко-многим» с классом Client. Содержит открытую функцию «GetClients».
 + +GetClients(sorting : String, ASKorDESK : Boolean, filtering : Client, count : Integer, page : Integer) : List<Client> - функция с входными параметрами «sorting» - сортировка, «ASKorDESK» - по возрастанию/по убыванию, «filtering» - фильтрация, «count» - количество, «page» - страница. Функция возвращает список клиентов.
 
-#### *Order*
+#### *[Order](Order.md)*
 
 Класс, отображающий данные о заявке. Содержит атрибуты: ID, Client, Clothes, DateOfRequest, Price, ReturnDate. Связан с классом MyTypeForDict, при оформлении заявки необходимо описать вещь и необходимые услуги.
 + +add() – функция добавления заявки в БД, возвращает ID заявки.
@@ -66,7 +66,7 @@
 Класс, связанный агрегацией «один-ко-многим» с классом Order. Содержит открытую функцию «GetOrders».
 + +GetOrders(sorting : String, ASKorDESK : Boolean, filterA : Order, filterB : Order, count : Integer, page : Integer) : List<Order> - функция с входными параметрами «sorting» - сортировка, «ASKorDESK» - по возрастанию/по убыванию, «filterA» - фильтр, «filterB» - фильтр (необходим для интервала количественных атрибутов), «count» - количество, «page» - страница. Функция возвращает список заявок.
 
-#### *BranchOffice*
+#### *[BranchOffice](BranchOffice.md)*
 
 Класс, отображающий данные о филиале, связанный композициями «один-ко-многим» с классами Client, Order, Employee, workShift. Содержит атрибуты: HeadOfBranch, Address.
 + +add() – функция добавления филиала в БД.
@@ -79,7 +79,7 @@
 Класс, связанный агрегацией «один-ко-многим» с классом BranchOffice. Содержит открытую функцию «GetBranches».
 + +GetBranches(sorting : String, ASKorDESK : Boolean, filtering : BranchOffice, count : Integer, page : Integer) : List<BranchOffice> - функция с входными параметрами «sorting» - сортировка, «ASKorDESK» - по возрастанию/по убыванию, «filtering» - фильтрация, «count» - количество, «page» - страница. Функция возвращает список филиалов.
 
-#### *Service*
+#### *[Service](Service.md)*
 
 Класс, отображающий данные об услуге и связанный с классом Order агрегацией «многие-ко-многим». Содержит атрибуты: ID, NameOfTheService, Difficulty, Price.
 + +add() – функция добавления услуги в БД, возвращает ID услуги.
@@ -92,7 +92,7 @@
 Класс, связанный агрегацией «один-ко-многим» с классом Service. Содержит открытую функцию «GetServices».
 + +GetServices(sorting : String, ASKorDESK : Boolean, filterA : Service, filterB : Service, count : Integer, page : Integer) : List<Service> - функция с входными параметрами «sorting» - сортировка, «ASKorDESK» - по возрастанию/по убыванию, «filterA» - фильтр, «filterB» - фильтр (необходим для интервала количественных атрибутов), «count» - количество, «page» - страница. Функция возвращает список услуг (прайс-лист).
 
-#### *workShift*
+#### *[workShift](workShift.md)*
 
 Класс, отображающий данные о смене сотрудника. Содержит атрибуты: Employee, Condition, StartDate, EndDate.
 + +add() – функция добавления смены в БД.
@@ -105,6 +105,6 @@
 Класс, связанный агрегацией «один-ко-многим» с классом workShift. Содержит открытую функцию «GetSchedule».
 + +GetSchedule(sorting : String, ASKorDESK : Boolean, filterA : workShift, filterB : workShift, count : Integer, page : Integer) : List<workShift> - функция с входными параметрами «sorting» - сортировка, «ASKorDESK» - по возрастанию/по убыванию, «filterA» - фильтр, «filterB» - фильтр (необходим для интервала количественных атрибутов), «count» - количество, «page» - страница. Функция возвращает список смен (график работы).
 
-#### *MyTypeForDict*
+#### *[MyTypeForDict](MyTypeForDict.md)*
 
 Класс, представляющий собой собственный тип данных для словаря. Содержит атрибуты: ItemName, ItemDescription, TypeOfService, NumberOfService, NumberOfClothes.
