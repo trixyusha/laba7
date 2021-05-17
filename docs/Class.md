@@ -22,7 +22,7 @@
 Класс, связанный агрегацией «один-ко-многим» с классом User. Содержит открытую функцию «GetUsers».
 + +GetUsers(sorting : String, ASKorDESK : Boolean, filtering : User, count : Integer, page : Integer) : List<User> – функция с входными параметрами «sorting» - сортировка, «ASKorDESK» - по возрастанию/по убыванию, «filtering» - фильтрация, «count» - количество, «page» - страница. Функция возвращает список пользователей.
 
-#### *Employee*
+#### *[Employee](Employee.md)*
 
 Класс, являющийся наследником класса Person и связанный композициями «один-ко-многим» и «один-к-одному» с классами Order и workShift, соответственно. Содержит атрибуты: Position, BranchOffice, EmploymentData.
 + +add() – функция добавления сотрудника в БД, возвращает ID сотрудника.
