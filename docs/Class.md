@@ -55,7 +55,7 @@
 
 #### *[Order](Order.md)*
 
-Класс, отображающий данные о заявке. Содержит атрибуты: ID, Client, Clothes, DateOfRequest, Price, ReturnDate. Связан с классом MyTypeForDict, при оформлении заявки необходимо описать вещь и необходимые услуги.
+Класс, отображающий данные о заявке. Содержит атрибуты: ID, Client, Clothes, NumberOfClothes, DateOfRequest, Price, ReturnDate. Связан с классом MyTypeForDict, при оформлении заявки необходимо описать вещь и необходимые услуги.
 + +add() – функция добавления заявки в БД, возвращает ID заявки.
 + +edit() – функция редактирования данных о заявке, возвращает True/False.
 + +del() – функция удаления заявки из БД, возвращает True/False.
@@ -107,4 +107,4 @@
 
 #### *[MyTypeForDict](MyTypeForDict.md)*
 
-Класс, представляющий собой собственный тип данных для словаря. Содержит атрибуты: ItemName, ItemDescription, TypeOfService, NumberOfService, NumberOfClothes.
+Класс, представляющий собой собственный тип данных для словаря. Содержит атрибуты: ItemName, ItemDescription, TypeOfService, NumberOfService.
