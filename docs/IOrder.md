@@ -10,5 +10,12 @@
 
 - +edit(Order : [Order](Order.md)) : Boolean — функция, редактирующая данные о заявке. Параметр «[Order](Order.md)» — заявка, данные которой необходимо отредактировать в БД;
 
-- +GetOrders(sorting : String, ASKorDESK : Boolean, filterA : [Order](Order.md), filterB : [Order](Order.md), count : Integer, page : Integer) : List<[Order](Order.md)> - функция с входными параметрами «sorting» - сортировка, 
-«ASKorDESK» - по возрастанию/по убыванию, «filterA» - фильтр, «filterB» - фильтр (необходим для интервала количественных атрибутов), «count» - количество, «page» - страница. Функция возвращает список заявок.
+- +GetOrders(sorting : String, ASKorDESK : Boolean, filterA : [Order](Order.md), filterB : [Order](Order.md), count : Integer, page : Integer) : List<[Order](Order.md)> - функция с входными параметрами:
+* sorting : String - отвечает, по какому полю будет сортироваться список;
+* ASKorDESK : Boolean - отвечает, по возрастанию или убыванию будут сортироваться элементы;
+* filterA : [Order](Order.md) - отвечает за фильтрацию, включает в себя левую границу интервала значений фильтра;
+* filterB : [Order](Order.md) - отвечает за фильтрацию, включает в себя правую границу интервала значений фильтра;
+* count : Integer - определяет сколько элементов необходимо показать;
+* page : Integer - определяет с какой страницы начинать поиск элементов.
+Функция возвращает список заявок.
+
